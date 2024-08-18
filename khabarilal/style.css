@@ -1,0 +1,45 @@
+
+/* cardc file */
+#main{
+    /* background-color: green; */
+ max-height: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+  
+}
+.child{
+    /* background-color: red; */
+    max-height: 100%;
+    max-width: 100%;
+  margin: 5px;
+ 
+}
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .child{
+        /* background-color: red; */
+        max-height: 100%;
+        max-width: 100%;
+      margin: 5px;
+      
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    #main{
+        /* background-color: red; */
+     max-height: 100%;
+        max-width: 100%;
+        /* display: flex;
+        flex-direction: column; */
+    }
+    .child{
+        /* background-color: blue; */
+        max-height: 100%;
+        max-width: 100%;
+      margin: 5px;
+    }
+  }
