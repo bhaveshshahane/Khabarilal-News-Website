@@ -28,7 +28,41 @@
 ```bash
 git clone https://github.com/bhaveshshahane/Khabrilal-News-Website.git
 cd khabrilal
+```
+2.**Set up your local server (XAMPP, WAMP, LAMP, etc.)**
 
+3.**Import the MySQL database:**
+ - Create a database named khabrilal
+ - Import the khabrilal.sql file from the project folder
+ 
+4.**Configure the database connection:**
+ - Open db.php or similar config file
+ - Set your database host, username, password, and database name
+ ```bash
+$host = 'localhost';
+$user = 'root';
+$pass = '';
+$db   = 'khabrilal';
+```
+5.**Run the project in your browser:**
+```bash
+http://localhost/khabrilal
+```
+🛡️ **Security Notes**
+
+- Validate and sanitize all inputs (server-side)
+
+- Use prepared statements (MySQLi or PDO)
+
+- Protect admin pages with sessions
+
+🙌 **Author**
+
+Bhavesh Shahane
+
+📧 shahanebhavesh04@gmail.com
+
+🌐 https://bhaveshshahane.github.io
 
 
 
